@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(46, 175, 222);
+}
+#area{
+    height: 200px;
+    width: 800px;
+    border: 100px solid rgb(188, 216, 49);
+    margin: 200px auto;
+}
+.ball{
+    height: 200px;
+    width: 150px;
+    background-color: rgb(0, 81, 255);
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 2s linear infinite alternate;
+}
+@keyframes bounce {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    10%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    20%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    30%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    40%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    50%{
+        left: 300px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    60%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    70%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    80%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    90%{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    100%{
+        left: 650px;
+    }
+}
